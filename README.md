@@ -20,13 +20,13 @@ In this task, I explored how to control the language model’s generation behavi
 
 ---
 
-### 🎯 Goal
+### Goal
 
 To modify the request payload sent to the OpenAI API so that the generation behavior (e.g., randomness and length) can be adjusted via constant values in the code.
 
 ---
 
-### ✔️ Code Changes
+### Code Changes
 
 - **Defined two new constants at the top of the file:**
 
@@ -36,15 +36,15 @@ To modify the request payload sent to the OpenAI API so that the generation beha
 
 ---
 
-## 🧠 Explore 1.2 — Track API Usage (Medium)
+## 🎛️ Explore 1.2 — Track API Usage (Medium)
 
 In this task, I modified the prototype to track the total number of tokens used in a chat session. This helps visualize and estimate the cost of API usage.
 
-### ✔️ Code Changes:
+### Code Changes:
 - `make_chat_request()` now extracts `total_tokens` from the OpenAI response and returns it.
 - `main()` accumulates usage via a new variable `total_usage` and prints the total after the session ends.
 
-### 🧩 Key Code Snippets:
+### Key Code Snippets:
 ```python
 # In make_chat_request():
 usage = resp_dict.get("usage", {}).get("total_tokens", 0)
