@@ -18,13 +18,9 @@ This repository contains my work for **Exploration 1** in HCDE 598. The goal of 
 
 In this task, I explored how to control the language model’s generation behavior by modifying the request parameters. Specifically, I added two new variables — `temperature` and `max_tokens` — to influence the creativity and length of the model’s responses.
 
----
-
 ### Goal
 
 To modify the request payload sent to the OpenAI API so that the generation behavior (e.g., randomness and length) can be adjusted via constant values in the code.
-
----
 
 ### Code Changes
 
