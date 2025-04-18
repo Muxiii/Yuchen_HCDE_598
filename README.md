@@ -14,6 +14,28 @@ This repository contains my work for **Exploration 1** in HCDE 598. The goal of 
 
 ---
 
+## 🎛️ Explore 1.3 — Add Temperature & Max Tokens Parameters (Hard)
+
+In this task, I explored how to control the language model’s generation behavior by modifying the request parameters. Specifically, I added two new variables — `temperature` and `max_tokens` — to influence the creativity and length of the model’s responses.
+
+---
+
+### 🎯 Goal
+
+To modify the request payload sent to the OpenAI API so that the generation behavior (e.g., randomness and length) can be adjusted via constant values in the code.
+
+---
+
+### ✔️ Code Changes
+
+- **Defined two new constants at the top of the file:**
+
+  ```python
+  OAI_MODEL_TEMPERATURE = 0.7
+  OAI_MODEL_MAX_TOKENS = 500
+
+---
+
 ## 🧠 Explore 1.2 — Track API Usage (Medium)
 
 In this task, I modified the prototype to track the total number of tokens used in a chat session. This helps visualize and estimate the cost of API usage.
