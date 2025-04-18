@@ -1,7 +1,7 @@
 # Yuchen_HCDE_598
 
 # Exploration1
-## See "prototypy_1.1.py" for my code!
+## See "recommender_1.1.py" for my code!
 For exploration1 task, I used Prototype 1 and completed both <hard> and <medium> level tasks.
 
 Explore 1.2 (Medium):
