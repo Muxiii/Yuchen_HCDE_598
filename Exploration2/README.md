@@ -1,5 +1,5 @@
-### Prototype2 - Mid
-Here's a detailed breakdown of the specific changes I made to the `recommender_2.0.py` code, explaining each modification and its purpose:
+### Prototype2 - Mid ###
+
 ---
 ## **1. Modified the System Prompt (`MOVIE_RECOMMENDER_PERSONA_PROMPT`)**
 **Change:**  
